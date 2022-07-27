@@ -1,6 +1,6 @@
 import os
 
-dir = ("C:\\Users\\Leonardo\\Documents\\GitHub\\parallelstick\\Nova Pasta")
+dir = ("C:\\Users\\Leonardo\\Documents\\GitHub\\parallelstick\\Conversor")
 for i in os.listdir(dir):
     files = os.path.join(dir, i)
     split = os.path.splitext(files)
